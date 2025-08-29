@@ -242,4 +242,3 @@ function approveLeave(leaveId, performedBy, comment):
 *   Email notifications on leave approval
 *   Role-based access control (Admin, Employee)
 *   Pagination for leave history
-
