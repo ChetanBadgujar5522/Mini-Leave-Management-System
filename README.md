@@ -234,7 +234,6 @@ function approveLeave(leaveId, performedBy, comment):
 
 8. **Database Connection Failure**  
    - If DB is down, return a `503 SERVICE UNAVAILABLE` error with a prop
-
 ```
 
 ### Potential Improvements
@@ -243,4 +242,4 @@ function approveLeave(leaveId, performedBy, comment):
 *   Email notifications on leave approval
 *   Role-based access control (Admin, Employee)
 *   Pagination for leave history
-```
+
