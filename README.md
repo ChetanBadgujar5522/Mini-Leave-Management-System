@@ -210,7 +210,7 @@ function approveLeave(leaveId, performedBy, comment):
 ```
 
 ### Edge Cases
-
+```
 1. **Invalid Employee ID**  
    - If a leave request is submitted for a non-existing employee ID, return a `404 NOT FOUND` error.
 
