@@ -97,10 +97,10 @@ The base URL is `http://localhost:8080`
   "joiningDate": "2025-01-09",
   "leaveBalance": 20
 }
-
+```
 ![Welcome Page](add_Emp.png)
 ![Welcome Page](get_Balance.png)
-```
+
 ### 2) Apply Leave
 **Endpoint:**  
 `POST /api/leaves`
@@ -125,9 +125,9 @@ The base URL is `http://localhost:8080`
     "status": "PENDING",
     "createdAt": null
 }
-
-![Welcome Page](apply_Leave.png)
 ```
+![Welcome Page](apply_Leave.png)
+
 ### 3) Approve/Reject Leave
 **Endpoint:**  
 `PUT /api/leaves/{id}/approve`
